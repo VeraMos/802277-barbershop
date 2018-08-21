@@ -9,18 +9,18 @@
   </head>
   <body <body class="inner-page">
   	<header class="main-header">
-  		<nav class="main-navigator">
+  		<nav class="main-navigation">
   			<a class="main-header-logo" href="index.html">
   			<img src="img/index-logo.svg" width="111" height="24" alt="Логотип барбершопа «Бородинский»">
   			</a>
-  			<ul class="site-navigator">
+  			<ul class="site-navigation">
   				<li><a href="info.html">Информация</a></li>
   				<li><a href="news.html">Новости</a></li>
   				<li><a href="price.html">Прайс-лист</a></li>
-  				<li class="site-navigator-current"><a href="shop.html">Магазин</a></li>
+  				<li class="site-navigation-current"><a href="shop.html">Магазин</a></li>
   				<li><a href="contacts.html">Контакты</a></li>
   			</ul>
-  			<ul class="user-navigator">
+  			<ul class="user-navigation">
   				<li class="user-link">
             <a class="user-link" href="login.html">Вход</a>
           </li>
@@ -69,17 +69,17 @@
             <fieldset>
               <legend>Группы товаров:</legend>
               <ul>
-                <li>
+                <li class="filter-option">
                   <input type="radio" name="product-group" value="shaving" id="filter-shave">
                     <label for="filter-shave"> Бритвенные принадлежности
                     </label>
                 </li>
-                <li>
+                <li class="filter-option">
                   <input type="radio" name="product-group" value="hair-care" id="filter-care" checked>
                     <label for="filter-care"> Средства для ухода
                     </label>
                 </li>
-                <li>
+                <li class="filter-option">
                   <input type="radio" name="product-group" value="accessories" id="filter-accessories">
                     <label for="filter-accessories"> Аксессуары
                     </label>
