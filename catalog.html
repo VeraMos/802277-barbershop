@@ -6,13 +6,16 @@
     <link href="css/style.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=PT+Sans+Narrow:400,700&amp;subset=latin,cyrillic" rel="stylesheet">
     <link href="css/normalize.css" rel="stylesheet">
+    <link href="css/outline.css" rel="stylesheet">
   </head>
   <body <body class="inner-page">
   	<header class="main-header">
   		<nav class="main-navigation">
-  			<a class="main-header-logo" href="index.html">
-  			<img src="img/index-logo.svg" width="111" height="24" alt="Логотип барбершопа «Бородинский»">
-  			</a>
+  			  <a class="main-header-logo" href="index.html">
+            <img src="img/logo-inner.svg" width="111" height="24" alt="Логотип барбершопа «Бородинский»">
+           </a>
+        <div class="main-navigation-wrapper">
+          <div class="container">
   			<ul class="site-navigation">
   				<li><a href="info.html">Информация</a></li>
   				<li><a href="news.html">Новости</a></li>
@@ -25,6 +28,8 @@
             <a class="user-link" href="login.html">Вход</a>
           </li>
   			</ul>
+      </div>
+    </div>
   		</nav>
   	</header>
   <main class="container">
@@ -34,6 +39,7 @@
       <li><a href="price.html">Магазин</a></li>
       <li class="breadcrumbs-current">Средства для ухода</li>
     </ul>
+      <div class="catalog-columns">
       <section class="filters">
         <h2 class="visually-hidden">Фильтр товаров</h2>
         <form class="filter" action="https://echo/htmlacademy.ru" method="get">
@@ -190,7 +196,9 @@
           <li class="pagination-item"><a href="#">4</a></li>
         </ul>
       </section>
+    </div>
       <footer class="main-footer">
+        <div class="container">
       <p class="footer-contacts">
         Барбершоп «Бородинский»<br>
         Адрес: г. Санкт-Петербург, Б. Конюшенная, д. 19/8<br>
@@ -208,6 +216,7 @@
       <p class="footer-copyright">
         <b>Разработано:</b> <a class="button" href="https://htmlacademy.ru">HTML Academy</a>
       </p>
+    </div>
     </footer>
     <section class="modal modal-login">
       <h2>Личный кабинет</h2>
